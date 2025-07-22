@@ -119,7 +119,7 @@
     <string name="sort">Sort</string>
     <string name="share">Share</string>
     <string name="export">Export</string>
-    <string name="import">Import</string>
+    <string name="import_data">Import</string>
     
     <!-- Export Options -->
     <string name="export_pdf">Export as PDF</string>
@@ -133,13 +133,13 @@
     <string name="error_validation">Please check your input and try again.</string>
     <string name="error_optimization">Optimization failed. Please check your constraints.</string>
     <string name="error_export">Failed to export timetable.</string>
-    <string name="error_import">Failed to import data.</string>
+    <string name="error_import_data">Failed to import data.</string>
     
     <!-- Success Messages -->
     <string name="success_saved">Saved successfully</string>
     <string name="success_deleted">Deleted successfully</string>
     <string name="success_exported">Exported successfully</string>
-    <string name="success_imported">Imported successfully</string>
+    <string name="success_import_data">Imported successfully</string>
     <string name="success_shared">Shared successfully</string>
     
     <!-- Validation Messages -->
