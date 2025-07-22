@@ -64,6 +64,21 @@ jobs:
     - name: 🛡️ Grant Execute Permission for gradlew
       run: chmod +x gradlew
 
+    - name: 🔧 Verify Gradle Wrapper
+      run: |
+        echo "Checking Gradle wrapper files..."
+        if [ ! -f "gradle/wrapper/gradle-wrapper.jar" ]; then
+          echo "❌ gradle-wrapper.jar missing, downloading..."
+          mkdir -p gradle/wrapper
+          curl -L -o gradle/wrapper/gradle-wrapper.jar "https://github.com/gradle/gradle/raw/v8.2/gradle/wrapper/gradle-wrapper.jar"
+          echo "✅ gradle-wrapper.jar downloaded"
+        else
+          echo "✅ gradle-wrapper.jar exists"
+        fi
+
+        echo "Gradle wrapper files:"
+        ls -la gradle/wrapper/
+
     - name: 🧹 Clean Project
       run: ./gradlew clean
 
