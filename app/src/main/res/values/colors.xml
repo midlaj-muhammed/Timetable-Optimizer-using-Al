@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Apple-inspired -->
+    <color name="primary">#007AFF</color>
+    <color name="primary_variant">#0056CC</color>
+    <color name="primary_light">#4DA3FF</color>
+    <color name="primary_dark">#0051D5</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#5AC8FA</color>
+    <color name="secondary_variant">#32ADE6</color>
+    <color name="secondary_light">#7ED4FB</color>
+    <color name="secondary_dark">#2196F3</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="background_secondary">#F8F9FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F5F5F7</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="background_dark">#000000</color>
+    <color name="background_secondary_dark">#1C1C1E</color>
+    <color name="surface_dark">#1C1C1E</color>
+    <color name="surface_variant_dark">#2C2C2E</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#6D6D80</color>
+    <color name="text_tertiary">#8E8E93</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#EBEBF5</color>
+    <color name="text_tertiary_dark">#EBEBF5</color>
+    
+    <!-- System Colors -->
+    <color name="success">#34C759</color>
+    <color name="warning">#FF9500</color>
+    <color name="error">#FF3B30</color>
+    <color name="info">#5AC8FA</color>
+    
+    <!-- Subject Colors -->
+    <color name="subject_red">#FF3B30</color>
+    <color name="subject_orange">#FF9500</color>
+    <color name="subject_yellow">#FFCC00</color>
+    <color name="subject_green">#34C759</color>
+    <color name="subject_mint">#00C7BE</color>
+    <color name="subject_teal">#30B0C7</color>
+    <color name="subject_cyan">#32ADE6</color>
+    <color name="subject_blue">#007AFF</color>
+    <color name="subject_indigo">#5856D6</color>
+    <color name="subject_purple">#AF52DE</color>
+    <color name="subject_pink">#FF2D92</color>
+    <color name="subject_brown">#A2845E</color>
+    
+    <!-- Priority Colors -->
+    <color name="priority_low">#8E8E93</color>
+    <color name="priority_medium">#FF9500</color>
+    <color name="priority_high">#FF3B30</color>
+    <color name="priority_critical">#D70015</color>
+    
+    <!-- Difficulty Colors -->
+    <color name="difficulty_easy">#34C759</color>
+    <color name="difficulty_medium">#FFCC00</color>
+    <color name="difficulty_hard">#FF9500</color>
+    <color name="difficulty_very_hard">#FF3B30</color>
+    
+    <!-- Card and Component Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_background_dark">#1C1C1E</color>
+    <color name="card_stroke">#E5E5EA</color>
+    <color name="card_stroke_dark">#38383A</color>
+    
+    <!-- Button Colors -->
+    <color name="button_primary">#007AFF</color>
+    <color name="button_primary_pressed">#0056CC</color>
+    <color name="button_secondary">#F2F2F7</color>
+    <color name="button_secondary_pressed">#E5E5EA</color>
+    <color name="button_destructive">#FF3B30</color>
+    <color name="button_destructive_pressed">#D70015</color>
+    
+    <!-- Divider Colors -->
+    <color name="divider">#C6C6C8</color>
+    <color name="divider_dark">#38383A</color>
+    
+    <!-- Selection Colors -->
+    <color name="selection">#007AFF</color>
+    <color name="selection_light">#E3F2FD</color>
+    <color name="selection_dark">#1E3A8A</color>
+    
+    <!-- Overlay Colors -->
+    <color name="overlay_light">#80FFFFFF</color>
+    <color name="overlay_dark">#80000000</color>
+    <color name="scrim">#52000000</color>
+    
+    <!-- Status Colors -->
+    <color name="status_active">#34C759</color>
+    <color name="status_inactive">#8E8E93</color>
+    <color name="status_draft">#FF9500</color>
+    <color name="status_optimizing">#5AC8FA</color>
+    <color name="status_failed">#FF3B30</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#007AFF</color>
+    <color name="gradient_end">#5AC8FA</color>
+    
+    <!-- Chart Colors -->
+    <color name="chart_primary">#007AFF</color>
+    <color name="chart_secondary">#5AC8FA</color>
+    <color name="chart_tertiary">#34C759</color>
+    <color name="chart_quaternary">#FF9500</color>
+    <color name="chart_quinary">#AF52DE</color>
+    
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#80000000</color>
+</resources>

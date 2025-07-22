@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom Navigation Color Selector -->
+    <color name="bottom_nav_color">@color/primary</color>
+    
+    <!-- State-based colors -->
+    <selector name="bottom_nav_item_color">
+        <item android:color="@color/primary" android:state_selected="true" />
+        <item android:color="@color/text_tertiary" />
+    </selector>
+    
+    <!-- Button state colors -->
+    <selector name="button_primary_color">
+        <item android:color="@color/button_primary_pressed" android:state_pressed="true" />
+        <item android:color="@color/button_primary" />
+    </selector>
+    
+    <selector name="button_secondary_color">
+        <item android:color="@color/button_secondary_pressed" android:state_pressed="true" />
+        <item android:color="@color/button_secondary" />
+    </selector>
+</resources>

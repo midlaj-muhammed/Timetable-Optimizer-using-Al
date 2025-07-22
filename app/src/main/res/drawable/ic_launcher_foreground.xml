@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Simple calendar/schedule icon design -->
+    <group android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:pivotX="54"
+        android:pivotY="54">
+        
+        <!-- Calendar background -->
+        <path
+            android:fillColor="@color/primary"
+            android:pathData="M30,25 L78,25 Q82,25 82,29 L82,75 Q82,79 78,79 L30,79 Q26,79 26,75 L26,29 Q26,25 30,25 Z" />
+        
+        <!-- Calendar header -->
+        <path
+            android:fillColor="@color/primary_dark"
+            android:pathData="M30,25 L78,25 Q82,25 82,29 L82,35 L26,35 L26,29 Q26,25 30,25 Z" />
+        
+        <!-- Calendar rings -->
+        <circle
+            android:fillColor="@android:color/white"
+            android:cx="38"
+            android:cy="30"
+            android:radius="2" />
+        <circle
+            android:fillColor="@android:color/white"
+            android:cx="54"
+            android:cy="30"
+            android:radius="2" />
+        <circle
+            android:fillColor="@android:color/white"
+            android:cx="70"
+            android:cy="30"
+            android:radius="2" />
+        
+        <!-- Grid lines -->
+        <path
+            android:strokeColor="@android:color/white"
+            android:strokeWidth="1"
+            android:strokeAlpha="0.3"
+            android:pathData="M26,45 L82,45 M26,55 L82,55 M26,65 L82,65 M38,35 L38,79 M54,35 L54,79 M70,35 L70,79" />
+        
+        <!-- AI indicator (small brain/gear icon) -->
+        <circle
+            android:fillColor="@color/secondary"
+            android:cx="70"
+            android:cy="50"
+            android:radius="6" />
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M67,47 L73,47 L73,53 L67,53 Z M69,49 L71,49 L71,51 L69,51 Z" />
+    </group>
+</vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <data-extraction>
+        <group domain="cloud-backup">
+            <include path="." />
+        </group>
+    </data-extraction>
+</data-extraction-rules>
